@@ -16,8 +16,7 @@ const Navbar = () => {
             <div className='md:hidden' onClick={() => setOpen(!open)}>
                 <span>
                     {open === true ?
-                        <XMarkIcon className="h-6 w-6 text-purple-500" />
-                        :
+                        <XMarkIcon className="h-6 w-6 text-purple-500" /> :
                         <Bars3Icon className="h-6 w-6 text-purple-500" />
                     }
                 </span>
