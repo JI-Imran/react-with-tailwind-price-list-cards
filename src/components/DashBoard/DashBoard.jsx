@@ -1,5 +1,6 @@
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import StackedBarChart from '../StackedBarChart/StackedBarChart';
 
 const DashBoard = () => {
     const studentMarks = [
@@ -15,9 +16,9 @@ const DashBoard = () => {
         { studentId: 10, name: 'Hayat', math: 90, physics: 92, chemistry: 86 }
       ];
     return (
-        <div>
+        <div className='grid md:flex'>
             <LineChart
-                width={1000}
+                width={500}
                 height={300}
                 data={studentMarks}
             >
@@ -27,6 +28,7 @@ const DashBoard = () => {
                 <YAxis/>
                 <Tooltip/>
             </LineChart>
+            <StackedBarChart></StackedBarChart>
         </div>
     );
 };
