@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Basic",
+    "price": 30,
+    "features": [
+      "Cardio access",
+      "Group classes"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard",
+    "price": 50,
+    "features": [
+      "Cardio & Strength access",
+      "Group classes",
+      "Personal training"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium",
+    "price": 80,
+    "features": [
+      "Full access",
+      "Group classes",
+      "Personal training",
+      "Pool & Sauna"
+    ]
+  }
+]
